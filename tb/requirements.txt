@@ -1,0 +1,8 @@
+# 安装依赖（本机访问 PyPI 官方 CDN 会超时，用清华镜像）
+#   .venv/bin/pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements.txt
+torch>=2.5
+tensorboard>=2.16
+# PROFILE 面板插件；它加载时会探测 tensorflow，所以只有装了 tensorflow 才会真的出现（见 README）
+tensorboard-plugin-profile>=2.16
+psutil>=5.9
+matplotlib>=3.8
